@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/Test/static/css/main.a617e044.chunk.css",
-    "main.js": "/Test/static/js/main.f108c25f.chunk.js",
-    "main.js.map": "/Test/static/js/main.f108c25f.chunk.js.map",
-    "runtime-main.js": "/Test/static/js/runtime-main.e759b5dc.js",
-    "runtime-main.js.map": "/Test/static/js/runtime-main.e759b5dc.js.map",
-    "static/js/2.51329179.chunk.js": "/Test/static/js/2.51329179.chunk.js",
-    "static/js/2.51329179.chunk.js.map": "/Test/static/js/2.51329179.chunk.js.map",
-    "static/js/3.af103378.chunk.js": "/Test/static/js/3.af103378.chunk.js",
-    "static/js/3.af103378.chunk.js.map": "/Test/static/js/3.af103378.chunk.js.map",
+    "main.css": "/Test/static/css/main.43e4f38a.chunk.css",
+    "main.js": "/Test/static/js/main.4d23998f.chunk.js",
+    "main.js.map": "/Test/static/js/main.4d23998f.chunk.js.map",
+    "runtime-main.js": "/Test/static/js/runtime-main.8f3b63d5.js",
+    "runtime-main.js.map": "/Test/static/js/runtime-main.8f3b63d5.js.map",
+    "static/js/2.c2fe823c.chunk.js": "/Test/static/js/2.c2fe823c.chunk.js",
+    "static/js/2.c2fe823c.chunk.js.map": "/Test/static/js/2.c2fe823c.chunk.js.map",
     "index.html": "/Test/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/Test/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.51329179.chunk.js.LICENSE.txt": "/Test/static/js/2.51329179.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Test/static/media/logo.6ce24c58.svg"
+    "static/css/main.43e4f38a.chunk.css.map": "/Test/static/css/main.43e4f38a.chunk.css.map",
+    "static/js/2.c2fe823c.chunk.js.LICENSE.txt": "/Test/static/js/2.c2fe823c.chunk.js.LICENSE.txt",
+    "static/media/Ferrari.87959f31.jpg": "/Test/static/media/Ferrari.87959f31.jpg",
+    "static/media/GTR.136ee431.jpg": "/Test/static/media/GTR.136ee431.jpg",
+    "static/media/Porsche.65e4ac76.jpg": "/Test/static/media/Porsche.65e4ac76.jpg",
+    "static/media/index.css": "/Test/static/media/Roboto-Thin.1711b41f.ttf",
+    "static/media/Tesla.f634c58d.jpg": "/Test/static/media/Tesla.f634c58d.jpg",
+    "static/media/arrowLeft.75cb45d1.svg": "/Test/static/media/arrowLeft.75cb45d1.svg",
+    "static/media/arrowRight.a83ae480.svg": "/Test/static/media/arrowRight.a83ae480.svg",
+    "static/media/arrowUp.f559f732.svg": "/Test/static/media/arrowUp.f559f732.svg",
+    "static/media/close.a22aaf0f.svg": "/Test/static/media/close.a22aaf0f.svg",
+    "static/media/facebook.35f43f60.svg": "/Test/static/media/facebook.35f43f60.svg",
+    "static/media/hamburger.1c906d9f.svg": "/Test/static/media/hamburger.1c906d9f.svg",
+    "static/media/insta.de5c2749.svg": "/Test/static/media/insta.de5c2749.svg",
+    "static/media/map.5c93b3dd.svg": "/Test/static/media/map.5c93b3dd.svg",
+    "static/media/telegram.db24df03.svg": "/Test/static/media/telegram.db24df03.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e759b5dc.js",
-    "static/js/2.51329179.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.f108c25f.chunk.js"
+    "static/js/runtime-main.8f3b63d5.js",
+    "static/js/2.c2fe823c.chunk.js",
+    "static/css/main.43e4f38a.chunk.css",
+    "static/js/main.4d23998f.chunk.js"
   ]
 }
