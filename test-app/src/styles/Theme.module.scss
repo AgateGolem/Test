@@ -1,0 +1,47 @@
+$main_color: #0EC261;
+$main_black: #121212;
+$gray_dark: #999999;
+$gray_light: #EEEEEE;
+$order_color: #151B1F;
+
+.container {
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid $gray_dark;
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.suggestionsContainerOpen {
+    background: white;
+    width: 250px;
+    max-height: 106px;
+    overflow-y: auto;
+}
+.suggestionsList {
+    list-style: none;
+    padding: 0 8px;
+}
+.suggestion {
+    margin: 8px 0;
+    color: $gray_dark;
+
+    &:hover {
+        color: $main_color;
+        cursor: pointer;
+    }
+}
+.suggestionHighlighted {
+    color: $main_color;
+}
+
+@media (max-width: 767px) {
+    .input {
+        width: 200px;
+    }
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 102px;
+  border-top: #EEEEEE 1px solid;
+  border-bottom: #EEEEEE 1px solid;
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+}
+
+.steps {
+  margin-left: 64px;
+  padding: 8px 0;
+  padding-left: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1440px;
+}
+
+.step {
+  font-size: 14px;
+  color: #121212;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.step.selected ~ .step {
+  cursor: default;
+  pointer-events: none;
+  color: #999999;
+}
+
+.step:not(:last-child) > span::after {
+  content: '';
+  border: 4px solid transparent;
+  border-left: 8px solid #999999;
+  display: inline-block;
+  text-align: center;
+  margin: 0 4px 0 9px;
+}
+
+.selected {
+  color: #0EC261;
+}
+
+@media (min-width: 1632px) {
+  .steps {
+    width: 1440px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .steps {
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 539px) {
+  .wrapper {
+    display: inherit;
+  }
+  .steps {
+    padding-left: 0;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .step {
+    font-weight: medium;
+    margin-right: 0px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .step:not(:last-child) > span::after {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Steps.module.css.map */

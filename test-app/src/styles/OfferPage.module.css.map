@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,wFAAI",
+    "sources": [
+        "OfferPage.module.scss"
+    ],
+    "names": [],
+    "file": "OfferPage.module.css"
+}

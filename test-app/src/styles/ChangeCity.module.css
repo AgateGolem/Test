@@ -1,0 +1,72 @@
+.overlay {
+  background: rgba(0, 0, 0, 0.45);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.map__input {
+  border: none;
+  height: 15px;
+  width: 200px;
+  border-bottom: #999999 1px solid;
+  margin: 0 0 13px 8px;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.map__input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.changeCity {
+  width: 350px;
+  height: 80px;
+  background-color: white;
+  padding: 50px 0 0 25px;
+}
+
+.changeCity .svg {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 25px;
+  left: 190px;
+  font-size: 20px;
+  display: none;
+}
+
+.changeCity .svg.active {
+  display: inline-block;
+}
+
+.changeCity input:valid ~ svg {
+  display: block;
+}
+
+.changeCity path {
+  fill: black;
+  stroke: black;
+}
+/*# sourceMappingURL=ChangeCity.module.css.map */
